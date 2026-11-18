@@ -1,0 +1,99 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+**/build/
+/coverage/
+
+# Symbolication related
+*.symbols
+
+# Obfuscation related
+*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Widget Preview related
+.widget_preview/
+
+# Android signing credentials
+**/key.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Local Android configuration
+**/local.properties
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Backup files and private credentials
+*.bak
+*.backup
+*.old
+*.orig
+*.secret
+secrets/
+private/
+
+# Gradle local files
+.gradle/
+**/.gradle/
+# Flutter generated ephemeral configuration
+**/Flutter/ephemeral/
+
+# Generated Flutter integration environment files
+**/flutter_native_integration.env
+
+# Local project archives
+*.7z
+# Local development and diagnostic files
+jobs.txt
+project_tree.txt
+structure.txt
+
+# Release artifacts - publish through GitHub Releases, not Git
+*.apk
+*.aab
+*.apks
+*.idsig
+
+# Android R8 mapping files
+mapping.txt

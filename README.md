@@ -17,6 +17,18 @@ The application provides a convenient way to track wallet performance, worker ac
 - **Localization** — Ukrainian and English.
 - **Themes** — Matrix Mining Dark, Light, and System modes.
 
+## Screenshots
+
+The following screenshots show the actual VMimerInfoV application interface and its mining monitoring features.
+
+| Dashboard | Workers |
+|:---:|:---:|
+| ![VMimerInfoV Dashboard](screenshots/dashboard.jpg) | ![VMimerInfoV Workers](screenshots/workers.jpg) |
+
+| Hashrate History | Android Widget |
+|:---:|:---:|
+| ![VMimerInfoV Hashrate History](screenshots/hashrate.jpg) | ![VMimerInfoV Android Widget](screenshots/widget.jpg) |
+
 ## Important
 
 VMimerInfoV is a monitoring application. It uses public wallet addresses to retrieve mining statistics from MoneroOcean.
@@ -114,6 +126,18 @@ Reverse engineering and other activities are subject to applicable law.
 - **Сповіщення** — повідомлення про зміни хешрейту, стану воркерів та інші налаштовані події.
 - **Локалізація** — українська та англійська мови.
 - **Теми оформлення** — Matrix Mining Dark, Light та System.
+
+## Скріншоти
+
+Нижче наведено справжні скриншоти інтерфейсу VMimerInfoV та основних можливостей моніторингу майнінгу.
+
+| Панель моніторингу | Воркери |
+|:---:|:---:|
+| ![Панель VMimerInfoV](screenshots/dashboard.jpg) | ![Воркери VMimerInfoV](screenshots/workers.jpg) |
+
+| Історія хешрейту | Віджет Android |
+|:---:|:---:|
+| ![Історія хешрейту VMimerInfoV](screenshots/hashrate.jpg) | ![Віджет VMimerInfoV](screenshots/widget.jpg) |
 
 ## Важливо
 

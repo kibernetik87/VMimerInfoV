@@ -1,0 +1,258 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "VMimerInfoV",
+
+  "dashboard": "Dashboard",
+  "hashrate": "Hashrate",
+  "wallets": "Wallets",
+  "workers": "Workers",
+  "payments": "Payments",
+  "settings": "Settings",
+
+  "loadingStatistics": "Loading statistics...",
+  "noWallets": "No wallets yet",
+  "addWalletToSeeMiningStats": "Add a wallet in the Wallets section to see mining statistics.",
+  "goToWallets": "Go to Wallets",
+  "defaultWallet": "Default wallet",
+  "miners": "Miners",
+  "online": "online",
+  "retry": "Retry",
+  "unknownError": "Unknown error.",
+  "statisticsLoadAutomatically": "Statistics will load automatically for the default wallet.",
+  "totalHashes": "Total Hashes",
+  "validShares": "Valid Shares",
+  "invalidShares": "Invalid Shares",
+  "paid": "Paid",
+  "due": "Due",
+  "transactions": "Transactions",
+
+  "noMainWallet": "No default wallet.",
+  "addWalletInWalletsSection": "Add a wallet in the Wallets section.",
+  "failedToLoadHashrateHistory": "Failed to load Hashrate history.",
+  "hashrateHistoryEmpty": "Hashrate history is not available yet.",
+  "refresh": "Refresh",
+  "currentHashrate": "Current Hashrate",
+  "hashrateHistory": "Hashrate History",
+  "expandChart": "Expand chart",
+  "noDataForSelectedPeriod": "No data for the selected period.",
+  "returnToPortrait": "Return to portrait mode",
+  "both": "Both",
+  "allTime": "All time",
+  "hourLabel": "{hours} hours",
+  "@hourLabel": {
+    "description": "Hashrate history period in hours",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+
+  "loadingPayments": "Loading payments...",
+  "noDefaultWallet": "No default wallet",
+  "selectDefaultWalletToSeePayments": "Select a default wallet in the Wallets section to see payments.",
+  "paymentsWillLoadAutomatically": "Payments will load automatically for the default wallet.",
+  "noPaymentsYet": "No payments yet.",
+  "date": "Date",
+  "mixin": "Mixin",
+  "copyTxHash": "Copy TX hash",
+  "txHashCopied": "TX hash copied.",
+
+  "addWallet": "Add wallet",
+  "walletsEmpty": "No wallets yet",
+  "addPublicXmrAddress": "Add a public XMR address to save and monitor your wallet.",
+  "walletName": "Name",
+  "walletNameHint": "For example, Main XMR",
+  "xmrAddress": "XMR address",
+  "xmrAddressHint": "Enter a public XMR address",
+  "enterWalletName": "Enter a wallet name.",
+  "enterXmrAddress": "Enter an XMR address.",
+  "checkXmrAddress": "Check the XMR address.",
+  "cancel": "Cancel",
+  "add": "Add",
+  "addressCopied": "Address copied.",
+  "deleteWallet": "Delete wallet?",
+  "deleteWalletConfirmation": "Wallet \"{name}\" will be removed from the list.",
+  "@deleteWalletConfirmation": {
+    "description": "Confirmation message before deleting a wallet",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "delete": "Delete",
+  "setAsDefault": "Default",
+  "copyAddress": "Copy address",
+
+  "loadingWorkers": "Loading Workers...",
+  "addAndSelectDefaultWallet": "Add and select a default wallet in the Wallets section.",
+  "workersLoadAutomatically": "Workers statistics will load automatically.",
+  "workersNotFound": "No Workers found.",
+  "lastActivity": "Last activity",
+  "loadingHistory": "Loading history...",
+  "failedToLoadHistory": "Failed to load history.",
+  "workerHashrateHistoryEmpty": "Hashrate history is not available.",
+  "workerHashrateHistory": "Worker Hashrate History",
+  "workerZeroHashrate": "0 H/s",
+  "workerOffline": "Offline",
+  "language": "Language",
+  "donateTitle": "Support VMimerInfoV development",
+  "donateDescription": "If you find this app useful, you can support its development with XMR.",
+  "donateCopyAddress": "Copy donation address",
+  "donateAddressCopied": "Donation address copied.",
+  "donateQrCode": "Scan the QR code to donate XMR",
+  "languageUkrainian": "Ukrainian",
+  "languageEnglish": "English",
+
+  "notificationSettings": "Notifications",
+  "hashrateNotification": "Hashrate notifications",
+  "hashrateNotificationDescription": "Notify when Hashrate crosses the specified threshold.",
+  "hashrateThreshold": "Hashrate threshold",
+  "hashrateThresholdHint": "For example, 15 KH/s",
+  "workersChangeNotification": "Miner count changes",
+  "workersChangeNotificationDescription": "Notify when the number of online miners changes.",
+  "notificationEventLog": "Notification history",
+  "notificationEventLogEmpty": "The event log is empty",
+  "notificationEventLogClear": "Clear log",
+  "notificationEventLogClearTitle": "Clear event log?",
+  "notificationEventLogClearDescription": "All saved events will be deleted.",
+  "clear": "Clear",
+
+  "editWallet": "Edit wallet",
+  "save": "Save",
+
+  "theme": "App theme",
+  "themeSystem": "System default",
+  "themeLight": "Light",
+  "themeDark": "Matrix Mining Dark",
+
+  "widgets": "Widgets",
+  "widgetRefreshSettings": "Widget refresh",
+  "widgetRefreshDescription": "Configure the automatic update interval for the widget and notifications",
+  "widgetRefreshIntervalTitle": "Widget refresh interval",
+  "widgetRefreshIntervalDescription": "Set the automatic widget refresh interval.",
+  "widgetRefreshInterval": "Refresh interval",
+  "widgetRefreshLimits": "Minimum: 00:01\nMaximum: 24:00",
+  "widgetRefreshSave": "Save",
+  "widgetRefreshInvalidInterval": "The value must be between 00:01 and 24:00.",
+  "widgetRefreshTimePickerHint": "Select hours and minutes",
+  "widgetRefreshSaved": "Refresh interval saved",
+
+  "notificationHashrateBelowTitle": "Hashrate dropped",
+  "notificationHashrateBelowMessage": "{walletPrefix}Hashrate {hashRate} is below the threshold of {threshold}.",
+  "@notificationHashrateBelowMessage": {
+    "placeholders": {
+      "walletPrefix": {},
+      "hashRate": {},
+      "threshold": {}
+    }
+  },
+
+  "notificationHashrateRestoredTitle": "Hashrate restored",
+  "notificationHashrateRestoredMessage": "{walletPrefix}Hashrate {hashRate} has returned to normal.",
+  "@notificationHashrateRestoredMessage": {
+    "placeholders": {
+      "walletPrefix": {},
+      "hashRate": {}
+    }
+  },
+
+  "notificationWorkersChangedTitle": "Worker count changed",
+  "notificationWorkersChangedMessage": "{walletPrefix}Online workers: {previousWorkers} → {workersOnline}.",
+  "@notificationWorkersChangedMessage": {
+    "placeholders": {
+      "walletPrefix": {},
+      "previousWorkers": {
+        "type": "int"
+      },
+      "workersOnline": {
+        "type": "int"
+      }
+    }
+  },
+
+  "walletsLoadError": "Failed to load wallets: {error}",
+  "@walletsLoadError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+
+  "walletNotificationsEnabled": "Notifications for \"{walletName}\" enabled",
+  "@walletNotificationsEnabled": {
+    "placeholders": {
+      "walletName": {}
+    }
+  },
+
+  "walletNotificationsDisabled": "Notifications for \"{walletName}\" disabled",
+  "@walletNotificationsDisabled": {
+    "placeholders": {
+      "walletName": {}
+    }
+  },
+
+  "walletSettingsSaveError": "Failed to save settings: {error}",
+  "@walletSettingsSaveError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+
+  "walletSettingsDeleteError": "Failed to delete wallet settings: {error}",
+  "@walletSettingsDeleteError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+
+  "notificationSettingsLoadError": "Failed to load notification settings: {error}",
+  "@notificationSettingsLoadError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+
+  "invalidHashrateThreshold": "Enter a valid numeric threshold",
+
+  "walletNotificationsTitle": "Notifications for this wallet",
+  "walletMonitoringEnabled": "Monitoring for this wallet is enabled",
+  "walletMonitoringEnableHint": "Enable to configure notifications for this wallet",
+
+  "notificationSettingsTitle": "Notification settings",
+  "hashrateDropTitle": "Hashrate drop",
+  "hashrateDropDescription": "Notify when hashrate falls below the threshold",
+  "hashrateThresholdLabel": "Hashrate threshold",
+  "hashrateUnitLabel": "Unit",
+  "saveHashrateThreshold": "Save threshold",
+
+  "hashrateRestoredTitle": "Hashrate restored",
+  "hashrateRestoredDescription": "Notify when hashrate rises above the threshold again",
+
+  "workersChangeTitle": "Worker count changed",
+  "workersChangeDescription": "Notify when the number of workers increases or decreases",
+
+  "walletNotificationEventsTitle": "Notifications: {walletName}",
+  "@walletNotificationEventsTitle": {
+    "placeholders": {
+      "walletName": {}
+    }
+  },
+
+  "noWalletNotificationEvents": "There are no events for this wallet yet.",
+  "dashboardSubtitle": "XMR wallet monitoring",
+  "hashrate2": "Hashrate²",
+  "miningPool": "Mining pool",
+  "aboutApp": "About app",
+  "aboutDescription": "Monitor Monero mining through the MoneroOcean pool. View hashrate, worker activity, statistics, mining history, and payments. Configure notifications and widgets to keep track of your miners. VMimerInfoV uses public wallet data and does not control mining hardware.",
+  "developerContact": "Developer contact",
+  "feedback": "Feedback",
+  "feedbackDescription": "Report a bug or suggest an improvement",
+  "sendFeedback": "Contact developer",
+  "feedbackEmailSubject": "VMimerInfoV — Feedback",
+  "feedbackEmailBody": "Hello! I would like to report an issue or suggest an improvement for VMimerInfoV.",
+  "feedbackOpenError": "Could not open the email app",
+  "appVersion": "Version"
+}

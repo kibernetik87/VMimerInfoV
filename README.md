@@ -1,21 +1,22 @@
 # VMimerInfoV
 
-**VMimerInfoV** is a free Android application for monitoring Monero mining statistics through the [MoneroOcean](https://moneroocean.stream/) pool.
+**VMimerInfoV** is a free, open-source Android application for monitoring Monero mining statistics from [MoneroOcean](https://moneroocean.stream/).
 
-The application provides a convenient way to track wallet performance, worker activity, hashrate history, payments, and mining notifications.
+The application provides a convenient way to monitor mining performance, workers, payments, and wallet statistics using a public Monero wallet address.
 
 ## Features
 
-- **Wallet management** — add, edit, delete, copy, and display wallet addresses as QR codes.
-- **Mining dashboard** — view current mining statistics for the selected wallet.
-- **Worker monitoring** — view worker status and individual worker statistics.
-- **Hashrate history** — review historical data over different periods: 1h, 6h, 24h, 7d, 30d, and maximum available history.
-- **Payments** — view payment information and copy transaction details.
-- **Home-screen widgets** — monitor mining statistics directly from the Android home screen.
-- **Background monitoring** — periodic mining data checks and configurable notifications.
-- **Notifications** — alerts for hashrate changes, worker status changes, and other configured events.
-- **Localization** — Ukrainian and English.
-- **Themes** — Matrix Mining Dark, Light, and System modes.
+- Monitor Monero mining statistics.
+- View current hashrate and mining activity.
+- Monitor workers and their status.
+- View mining history across different time periods.
+- View payment history and wallet balances.
+- Configure notifications for mining events.
+- Manage multiple wallet addresses.
+- Home screen widget for quick access to mining statistics.
+- Ukrainian and English interface.
+- Dark, light, and system themes.
+
 
 ## Screenshots
 
@@ -29,103 +30,108 @@ The following screenshots show the actual VMimerInfoV application interface and 
 |:---:|:---:|
 | ![VMimerInfoV Hashrate History](screenshots/hashrate.jpg) | ![VMimerInfoV Android Widget](screenshots/widget.jpg) |
 
+
+## Open Source
+
+VMimerInfoV is an **open-source project**. Its source code is publicly available on GitHub.
+
+Anyone can inspect the source code, study how the application works, use it, modify it, and redistribute it in accordance with the terms of the project's license.
+
+The project is distributed under the **GNU General Public License v3.0 or later (GPL-3.0-or-later)**.
+
+This means that:
+
+- The source code is publicly accessible.
+- Users are free to use, study, and modify the software under the license terms.
+- Redistribution is permitted under the conditions of the GPL.
+- Distributed modified versions must comply with the applicable GPL requirements, including source-code and licensing obligations.
+
+See the [LICENSE](LICENSE) file for the complete license text.
+
+Third-party libraries and components remain subject to their respective licenses.
+
 ## Important
 
-VMimerInfoV is a monitoring application. It uses public wallet addresses to retrieve mining statistics from MoneroOcean.
+- This application is a monitoring tool only.
+- It does not control XMRig or any other mining software.
+- It does not start, stop, or configure mining processes.
+- Only public Monero wallet addresses are used to retrieve mining statistics.
+- Never enter private keys, seed phrases, or wallet passwords into this application.
 
-**It does not start, stop, configure, or control XMRig or any other mining software.**
+## Free to Use
 
-Never enter private keys, seed phrases, or wallet passwords into the application.
+VMimerInfoV is free to download and use.
 
-## Free to use
+There are no paid features or mandatory subscriptions.
 
-VMimerInfoV is currently free to use. All application features are available without payment or subscription.
+## Donations
 
-## Support the project
-
-If you find VMimerInfoV useful and would like to support its development, you can make a voluntary donation in Monero (XMR).
-
-**Monero (XMR) donation address:**
+If you find this project useful, you can voluntarily support its development with a Monero donation:
 
 ```text
 83uMituHLV51ziN4AUxSvcPkLbj3Mk4KbSEWzPrfXTNiSprKx3tuVp7ix4wTLJXEd8iU1wJ7zuZFraKnDEW4wBwG6Vg5RQj
 ```
 
-Donations are entirely optional. They do not unlock additional features or affect application functionality. Every contribution is appreciated and helps support maintenance and future development.
+Donations are completely voluntary and are not required to use the application.
 
 ## Requirements
 
-- Android 11 or newer.
-- An internet connection.
-- A MoneroOcean wallet address.
+- Android 7.0 or later.
+- Internet connection.
+- A public Monero wallet address supported by MoneroOcean.
 
-## Platform availability
+## Availability
 
-VMimerInfoV is currently available for Android only.
+Currently, VMimerInfoV is available for Android.
 
-The application is distributed as a ready-to-install Android APK. Download the latest available version from the [GitHub Releases](../../releases) section.
+## Installation
 
-### Installing the APK
+Download the latest APK from [GitHub Releases](https://github.com/kibernetik87/VMimerInfoV/releases).
 
-1. Download the APK file from the project's GitHub Releases page.
-2. Open the downloaded APK from your device's Downloads folder or notification.
-3. If Android asks for permission to install apps from this source, allow it in the device settings and return to the installation screen.
-4. Tap **Install** and wait for the installation to finish.
-
-Only download and install VMimerInfoV APK files from the project's official GitHub Releases page.
+Enable installation from the appropriate source in Android settings if necessary, then install the downloaded APK.
 
 ## Author and Contact
 
-Developed and maintained by **VIV**.
+For questions, suggestions, bug reports, or contributions:
 
-VMimerInfoV is an independent project.
+**Email:** [vmimerinfov@gmail.com](mailto\:vmimerinfov@gmail.com)
 
-For questions, feedback, bug reports, or suggestions:
+**GitHub:** [VMimerInfoV](https://github.com/kibernetik87/VMimerInfoV)
 
-**Email:** [vmimerinfov@gmail.com](mailto:vmimerinfov@gmail.com)
+## License
 
-## License and source code
+VMimerInfoV is licensed under the **GNU General Public License v3.0 or later (GPL-3.0-or-later)**.
 
-VMimerInfoV is proprietary, closed-source software.
+You may use, study, modify, and redistribute this software under the terms of this license.
 
-The application is provided free of charge. Its source code and internal implementation are not publicly available.
+See the [LICENSE](LICENSE) file for details.
 
-All rights to the application, its source code, design, and original components are reserved by the author.
+## Privacy and Security
 
-Third-party libraries and components included in VMimerInfoV remain the property of their respective authors and are used in accordance with their applicable licenses. Nothing in this section is intended to restrict rights granted under those third-party licenses.
+VMimerInfoV uses public wallet addresses to retrieve mining statistics from MoneroOcean.
 
-Copying, modifying, redistributing, or reusing the application or its components without prior written permission from the author is not permitted, except where permitted by applicable law.
-
-Reverse engineering and other activities are subject to applicable law.
-
-**All rights reserved.**
-
-## Privacy and security
-
-- The application works with public wallet addresses to retrieve mining statistics.
-- Never share private keys, seed phrases, or wallet passwords.
-- The application does not require access to private wallet keys to perform its monitoring functions.
+The application does not require access to private wallet keys or seed phrases. It does not perform cryptocurrency transactions and does not manage or control mining software.
 
 ---
 
 # VMimerInfoV
 
-**VMimerInfoV** — це безкоштовний Android-застосунок для моніторингу статистики майнінгу Monero через пул [MoneroOcean](https://moneroocean.stream/).
+**VMimerInfoV** — це безкоштовний застосунок із відкритим вихідним кодом для Android, призначений для моніторингу статистики майнінгу Monero через [MoneroOcean](https://moneroocean.stream/).
 
-Застосунок дає змогу зручно відстежувати показники гаманців, активність воркерів, історію хешрейту, платежі та отримувати сповіщення про зміни у процесі майнінгу.
+Застосунок дає змогу зручно відстежувати продуктивність майнінгу, воркери, виплати та статистику гаманця за допомогою публічної адреси Monero.
 
 ## Можливості
 
-- **Керування гаманцями** — додавання, редагування, видалення, копіювання адрес гаманців і відображення їх у вигляді QR-кодів.
-- **Панель моніторингу** — перегляд поточної статистики майнінгу для вибраного гаманця.
-- **Моніторинг воркерів** — перегляд стану воркерів та індивідуальної статистики кожного з них.
-- **Історія хешрейту** — перегляд історичних даних за різні періоди: 1 год, 6 год, 24 год, 7 днів, 30 днів і весь доступний період.
-- **Платежі** — перегляд інформації про виплати та копіювання даних транзакцій.
-- **Віджети головного екрана** — моніторинг статистики майнінгу безпосередньо з головного екрана Android.
-- **Фоновий моніторинг** — періодична перевірка даних майнінгу та налаштування сповіщень.
-- **Сповіщення** — повідомлення про зміни хешрейту, стану воркерів та інші налаштовані події.
-- **Локалізація** — українська та англійська мови.
-- **Теми оформлення** — Matrix Mining Dark, Light та System.
+- Перегляд статистики майнінгу Monero.
+- Відображення поточного хешрейту та активності майнінгу.
+- Моніторинг воркерів та їхнього стану.
+- Перегляд історії майнінгу за різні періоди.
+- Перегляд історії виплат і балансу гаманця.
+- Налаштування сповіщень про події майнінгу.
+- Керування кількома адресами гаманців.
+- Віджет головного екрана для швидкого перегляду статистики.
+- Українська та англійська мови інтерфейсу.
+- Темна, світла та системна теми оформлення.
 
 ## Скріншоти
 
@@ -139,83 +145,84 @@ Reverse engineering and other activities are subject to applicable law.
 |:---:|:---:|
 | ![Історія хешрейту VMimerInfoV](screenshots/hashrate.jpg) | ![Віджет VMimerInfoV](screenshots/widget.jpg) |
 
+
+## Відкритий вихідний код (Open Source)
+
+VMimerInfoV — це **проєкт із відкритим вихідним кодом (Open Source)**. Вихідний код застосунку є публічно доступним на GitHub.
+
+Кожен охочий може переглядати вихідний код, вивчати принципи роботи застосунку, використовувати його, змінювати та поширювати відповідно до умов ліцензії проєкту.
+
+Проєкт поширюється за ліцензією **GNU General Public License версії 3.0 або новішої (GPL-3.0-or-later)**.
+
+Це означає, що:
+
+- Вихідний код проєкту є відкритим і доступним для перегляду.
+- Користувачі можуть вільно використовувати, вивчати та змінювати програмне забезпечення відповідно до умов ліцензії.
+- Поширення оригінальної та зміненої версій дозволене за умов дотримання GPL.
+- Похідні версії, що поширюються, повинні відповідати вимогам GPL, зокрема щодо надання вихідного коду та збереження ліцензійних повідомлень.
+
+Повний текст ліцензії наведено у файлі [LICENSE](LICENSE).
+
+Сторонні бібліотеки та компоненти залишаються під дією власних ліцензій.
+
 ## Важливо
 
-VMimerInfoV — це застосунок виключно для моніторингу. Він використовує публічні адреси гаманців для отримання статистики майнінгу з MoneroOcean.
-
-**Застосунок не запускає, не зупиняє, не налаштовує та не керує XMRig або будь-яким іншим програмним забезпеченням для майнінгу.**
-
-Не вводьте в застосунок приватні ключі, seed-фрази або паролі від гаманців.
+- Застосунок призначений виключно для моніторингу.
+- Він не керує XMRig або будь-яким іншим програмним забезпеченням для майнінгу.
+- Він не запускає, не зупиняє та не налаштовує процеси майнінгу.
+- Для отримання статистики використовуються лише публічні адреси гаманців Monero.
+- Ніколи не вводьте в застосунок приватні ключі, seed-фрази або паролі від гаманців.
 
 ## Безкоштовне використання
 
-Наразі VMimerInfoV є безкоштовним застосунком. Усі функції доступні без оплати та передплати.
+VMimerInfoV можна безкоштовно завантажувати та використовувати.
 
-## Підтримати проєкт
+У застосунку немає платних функцій або обов'язкових підписок.
 
-Якщо VMimerInfoV виявився для вас корисним і ви бажаєте підтримати його розвиток, можете зробити добровільний донат у Monero (XMR).
+## Підтримка проєкту
 
-**Адреса Monero (XMR) для донатів:**
+Якщо вам подобається цей проєкт і ви хочете підтримати його подальшу розробку, ви можете добровільно зробити пожертву в Monero:
 
 ```text
 83uMituHLV51ziN4AUxSvcPkLbj3Mk4KbSEWzPrfXTNiSprKx3tuVp7ix4wTLJXEd8iU1wJ7zuZFraKnDEW4wBwG6Vg5RQj
 ```
 
-Донат є виключно добровільним. Він не відкриває додаткових функцій і жодним чином не впливає на роботу застосунку. Кожна підтримка цінується та допомагає підтримувати проєкт і працювати над його подальшим розвитком.
+Пожертви є виключно добровільними та не є умовою використання застосунку.
 
 ## Системні вимоги
 
-- Android 11 або новіша версія.
-- Підключення до інтернету.
-- Адреса гаманця MoneroOcean.
+- Android 7.0 або новіша версія.
+- Підключення до Інтернету.
+- Публічна адреса гаманця Monero, що підтримується MoneroOcean.
 
-## Доступні платформи
+## Доступність
 
-Наразі VMimerInfoV доступний лише для Android.
+Наразі VMimerInfoV доступний для Android.
 
-Застосунок розповсюджується у вигляді готового APK-файлу для встановлення. Завантажити останню доступну версію можна в розділі [GitHub Releases](../../releases).
+## Встановлення
 
-### Встановлення APK
+Завантажте останню версію APK зі сторінки [GitHub Releases](https://github.com/kibernetik87/VMimerInfoV/releases).
 
-1. Завантажте APK-файл зі сторінки GitHub Releases проєкту.
-2. Відкрийте завантажений APK із папки «Завантаження» або зі сповіщення.
-3. Якщо Android запитає дозвіл на встановлення застосунків із цього джерела, надайте його в налаштуваннях пристрою та поверніться до екрана встановлення.
-4. Натисніть **«Установити»** та дочекайтеся завершення встановлення.
+За потреби дозвольте встановлення застосунків із відповідного джерела в налаштуваннях Android, а потім встановіть завантажений APK.
 
-Завантажуйте та встановлюйте APK-файли VMimerInfoV лише з офіційної сторінки GitHub Releases проєкту.
+## Автор і контакти
 
-## Автор та контакти
+З питань, пропозицій, повідомлень про помилки або участі в розробці звертайтеся:
 
-Розробник та автор проєкту — **VIV**.
+**Електронна пошта:** [vmimerinfov@gmail.com](mailto\:vmimerinfov@gmail.com)
 
-VMimerInfoV — незалежний авторський проєкт.
+**GitHub:** [VMi](https://github.com/kibernetik87/VMimerInfoV)m[erInfoV](https://github.com/kibernetik87/VMimerInfoV)
 
-З питань, відгуків, повідомлень про помилки та пропозицій звертайтеся:
+## Ліцензія
 
-**Email:** [vmimerinfov@gmail.com](mailto:vmimerinfov@gmail.com)
+VMimerInfoV поширюється за ліцензією **GNU General Public License версії 3.0 або новішої (GPL-3.0-or-later)**.
 
-## Ліцензія та вихідний код
+Ви можете використовувати, вивчати, змінювати та поширювати це програмне забезпечення відповідно до умов цієї ліцензії.
 
-VMimerInfoV є пропрієтарним програмним забезпеченням із закритим вихідним кодом.
-
-Застосунок надається безкоштовно. Його вихідний код та внутрішня реалізація не публікуються.
-
-Усі права на застосунок, його вихідний код, дизайн та оригінальні компоненти належать автору.
-
-Сторонні бібліотеки та компоненти, що використовуються у VMimerInfoV, залишаються власністю їхніх відповідних авторів і використовуються відповідно до умов їхніх ліцензій. Жодне положення цього розділу не має на меті обмежувати права, надані цими сторонніми ліцензіями.
-
-Копіювання, модифікація, розповсюдження або повторне використання застосунку чи його компонентів без попереднього письмового дозволу автора не дозволяються, за винятком випадків, передбачених чинним законодавством.
-
-Зворотня розробка та інші подібні дії регулюються чинним законодавством.
-
-**Усі права захищені.**
+Детальніше — у файлі [LICENSE](LICENSE).
 
 ## Конфіденційність і безпека
 
-- Застосунок працює з публічними адресами гаманців для отримання статистики майнінгу.
-- Ніколи не передавайте стороннім приватні ключі, seed-фрази або паролі від гаманців.
-- Для роботи функцій моніторингу застосунку не потрібен доступ до приватних ключів гаманця.
+VMimerInfoV використовує публічні адреси гаманців для отримання статистики майнінгу з MoneroOcean.
 
----
-
-**VMimerInfoV — Free Android Monero Mining Monitor.**
+Застосунок не потребує доступу до приватних ключів або seed-фраз гаманців. Він не здійснює криптовалютних транзакцій і не керує програмним забезпеченням для майнінгу.

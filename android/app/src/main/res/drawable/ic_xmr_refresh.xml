@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--(VIV [XMR Refresh Icon — 2026-10-06])-->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="44dp"
+    android:height="44dp"
+    android:viewportWidth="44"
+    android:viewportHeight="44">
+
+    <!--(VIV [XMR Coin Outer Ring — 2026-10-06])-->
+    <path
+        android:fillColor="#FF6600"
+        android:pathData="M22,1
+            A21,21 0,1 0,22,43
+            A21,21 0,1 0,22,1" />
+    <!--) VIV [XMR Coin Outer Ring — 2026-10-06])-->
+
+    <!--(VIV [XMR Coin Inner Surface — 2026-10-06])-->
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M22,4
+            A18,18 0,1 0,22,40
+            A18,18 0,1 0,22,4" />
+    <!--) VIV [XMR Coin Inner Surface — 2026-10-06])-->
+
+    <!--(VIV [XMR Symbol — 2026-10-06])-->
+    <path
+        android:fillColor="#FF6600"
+        android:pathData="M12,30
+            L12,14
+            L16,14
+            L22,22
+            L28,14
+            L32,14
+            L32,30
+            L28,30
+            L28,21
+            L24,27
+            L20,27
+            L16,21
+            L16,30
+            Z" />
+    <!--) VIV [XMR Symbol — 2026-10-06])-->
+
+</vector>
+
+    <!--) VIV [XMR Refresh Icon — 2026-10-06])-->

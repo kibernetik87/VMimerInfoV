@@ -97,3 +97,4 @@ structure.txt
 
 # Android R8 mapping files
 mapping.txt
+*.prt

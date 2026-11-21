@@ -1,0 +1,258 @@
+{
+  "@@locale": "uk",
+
+  "appTitle": "VMimerInfoV",
+
+  "dashboard": "Панель",
+  "hashrate": "Хешрейт",
+  "wallets": "Гаманці",
+  "workers": "Воркери",
+  "payments": "Виплати",
+  "settings": "Налаштування",
+
+  "loadingStatistics": "Завантаження статистики...",
+  "noWallets": "Гаманців ще немає",
+  "addWalletToSeeMiningStats": "Додайте гаманець у розділі «Гаманці», щоб побачити статистику майнінгу.",
+  "goToWallets": "До гаманців",
+  "defaultWallet": "Гаманець за замовчуванням",
+  "miners": "Майнери",
+  "online": "онлайн",
+  "retry": "Повторити",
+  "unknownError": "Невідома помилка.",
+  "statisticsLoadAutomatically": "Статистика завантажиться автоматично для гаманця за замовчуванням.",
+  "totalHashes": "Усього хешів",
+  "validShares": "Прийняті шари",
+  "invalidShares": "Відхилені шари",
+  "paid": "Виплачено",
+  "due": "До виплати",
+  "transactions": "Транзакції",
+
+  "noMainWallet": "Немає основного гаманця.",
+  "addWalletInWalletsSection": "Додайте гаманець у розділі «Гаманці».",
+  "failedToLoadHashrateHistory": "Не вдалося завантажити історію Hashrate.",
+  "hashrateHistoryEmpty": "Історія Hashrate поки що відсутня.",
+  "refresh": "Оновити",
+  "currentHashrate": "Поточний Hashrate",
+  "hashrateHistory": "Історія Hashrate",
+  "expandChart": "Розгорнути графік",
+  "noDataForSelectedPeriod": "Немає даних за вибраний період.",
+  "returnToPortrait": "Повернути вертикальний режим",
+  "both": "Обидва",
+  "allTime": "Весь час",
+  "hourLabel": "{hours} год",
+  "@hourLabel": {
+    "description": "Hashrate history period in hours",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+
+  "loadingPayments": "Завантаження виплат...",
+  "noDefaultWallet": "Гаманця за замовчуванням немає",
+  "selectDefaultWalletToSeePayments": "Виберіть гаманець за замовчуванням у розділі «Гаманці», щоб побачити виплати.",
+  "paymentsWillLoadAutomatically": "Виплати завантажаться автоматично для гаманця за замовчуванням.",
+  "noPaymentsYet": "Виплат поки немає.",
+  "date": "Дата",
+  "mixin": "Mixin",
+  "copyTxHash": "Копіювати TX hash",
+  "txHashCopied": "TX hash скопійовано.",
+
+  "addWallet": "Додати гаманець",
+  "walletsEmpty": "Гаманців ще немає",
+  "addPublicXmrAddress": "Додайте публічну XMR-адресу, щоб зберігати та моніторити свій гаманець.",
+  "walletName": "Назва",
+  "walletNameHint": "Наприклад, Main XMR",
+  "xmrAddress": "XMR адреса",
+  "xmrAddressHint": "Введіть публічну XMR-адресу",
+  "enterWalletName": "Введіть назву гаманця.",
+  "enterXmrAddress": "Введіть XMR-адресу.",
+  "checkXmrAddress": "Перевірте XMR-адресу.",
+  "cancel": "Скасувати",
+  "add": "Додати",
+  "addressCopied": "Адресу скопійовано.",
+  "deleteWallet": "Видалити гаманець?",
+  "deleteWalletConfirmation": "Гаманець «{name}» буде видалено зі списку.",
+  "@deleteWalletConfirmation": {
+    "description": "Confirmation message before deleting a wallet",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "delete": "Видалити",
+  "setAsDefault": "Основний",
+  "copyAddress": "Копіювати адресу",
+
+  "loadingWorkers": "Завантаження Workers...",
+  "addAndSelectDefaultWallet": "Додайте та виберіть гаманець за замовчуванням у розділі «Гаманці».",
+  "workersLoadAutomatically": "Статистика Workers завантажиться автоматично.",
+  "workersNotFound": "Workers не знайдено.",
+  "lastActivity": "Остання активність",
+  "loadingHistory": "Завантаження історії...",
+  "failedToLoadHistory": "Не вдалося завантажити історію.",
+  "workerHashrateHistoryEmpty": "Історія Hashrate відсутня.",
+  "workerHashrateHistory": "Історія Hashrate Worker",
+  "workerZeroHashrate": "0 H/s",
+  "workerOffline": "Офлайн",
+  "language": "Мова",
+  "donateTitle": "Підтримати розвиток VMimerInfoV",
+  "donateDescription": "Якщо застосунок корисний для вас, підтримайте його розвиток переказом XMR.",
+  "donateCopyAddress": "Копіювати адресу для донату",
+  "donateAddressCopied": "Адресу для донату скопійовано.",
+  "donateQrCode": "Відскануйте QR-код, щоб надіслати XMR",
+  "languageUkrainian": "Українська",
+  "languageEnglish": "English",
+
+  "notificationSettings": "Сповіщення",
+  "hashrateNotification": "Сповіщення про Hashrate",
+  "hashrateNotificationDescription": "Повідомляти, коли Hashrate перетинає заданий поріг.",
+  "hashrateThreshold": "Поріг Hashrate",
+  "workersChangeNotification": "Зміна кількості майнерів",
+  "workersChangeNotificationDescription": "Повідомляти, коли змінюється кількість майнерів онлайн.",
+  "notificationEventLog": "Журнал подій",
+  "notificationEventLogEmpty": "Журнал подій порожній",
+  "notificationEventLogClear": "Очистити журнал",
+  "notificationEventLogClearTitle": "Очистити журнал подій?",
+  "notificationEventLogClearDescription": "Усі збережені події буде видалено.",
+  "clear": "Очистити",
+
+  "editWallet": "Редагувати гаманець",
+  "save": "Зберегти",
+
+  "theme": "Тема оформлення",
+  "themeSystem": "Як у системі",
+  "themeLight": "Світла",
+  "themeDark": "Matrix Mining Dark",
+
+  "widgets": "Віджети",
+  "widgetRefreshSettings": "Оновлення віджета",
+  "widgetRefreshDescription": "Налаштувати інтервал автоматичного оновлення віджета, та сповіщень",
+  "widgetRefreshIntervalTitle": "Інтервал оновлення віджета",
+  "widgetRefreshIntervalDescription": "Встановіть інтервал автоматичного оновлення віджета.",
+  "widgetRefreshInterval": "Інтервал оновлення",
+  "widgetRefreshLimits": "Мінімум: 00:01\nМаксимум: 24:00",
+  "widgetRefreshSave": "Зберегти",
+  "widgetRefreshInvalidInterval": "Значення має бути від 00:01 до 24:00.",
+  "widgetRefreshTimePickerHint": "Оберіть години та хвилини",
+  "widgetRefreshSaved": "Інтервал оновлення збережено",
+
+  "notificationHashrateBelowTitle": "Зниження хешрейту",
+  "notificationHashrateBelowMessage": "{walletPrefix}Хешрейт {hashRate} нижче порогу {threshold}.",
+  "@notificationHashrateBelowMessage": {
+    "placeholders": {
+      "walletPrefix": {},
+      "hashRate": {},
+      "threshold": {}
+    }
+  },
+
+  "notificationHashrateRestoredTitle": "Хешрейт відновлено",
+  "notificationHashrateRestoredMessage": "{walletPrefix}Хешрейт {hashRate} відновився до нормального рівня.",
+  "@notificationHashrateRestoredMessage": {
+    "placeholders": {
+      "walletPrefix": {},
+      "hashRate": {}
+    }
+  },
+
+  "notificationWorkersChangedTitle": "Зміна кількості воркерів",
+  "notificationWorkersChangedMessage": "{walletPrefix}Онлайн-воркери: {previousWorkers} → {workersOnline}.",
+  "@notificationWorkersChangedMessage": {
+    "placeholders": {
+      "walletPrefix": {},
+      "previousWorkers": {
+        "type": "int"
+      },
+      "workersOnline": {
+        "type": "int"
+      }
+    }
+  },
+
+  "walletsLoadError": "Не вдалося завантажити гаманці: {error}",
+  "@walletsLoadError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+
+  "walletNotificationsEnabled": "Сповіщення для «{walletName}» увімкнено",
+  "@walletNotificationsEnabled": {
+    "placeholders": {
+      "walletName": {}
+    }
+  },
+
+  "walletNotificationsDisabled": "Сповіщення для «{walletName}» вимкнено",
+  "@walletNotificationsDisabled": {
+    "placeholders": {
+      "walletName": {}
+    }
+  },
+
+  "walletSettingsSaveError": "Не вдалося зберегти налаштування: {error}",
+  "@walletSettingsSaveError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+
+  "walletSettingsDeleteError": "Не вдалося видалити налаштування гаманця: {error}",
+  "@walletSettingsDeleteError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+
+  "notificationSettingsLoadError": "Не вдалося завантажити налаштування сповіщень: {error}",
+  "@notificationSettingsLoadError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+
+  "invalidHashrateThreshold": "Введіть коректне числове значення порогу",
+
+  "walletNotificationsTitle": "Сповіщення для цього гаманця",
+  "walletMonitoringEnabled": "Моніторинг для цього гаманця увімкнено",
+  "walletMonitoringEnableHint": "Увімкніть, щоб налаштувати сповіщення цього гаманця",
+
+  "notificationSettingsTitle": "Налаштування сповіщень",
+  "hashrateDropTitle": "Падіння хешрейту",
+  "hashrateDropDescription": "Сповіщати, коли хешрейт опуститься нижче порогу",
+  "hashrateThresholdLabel": "Пороговий хешрейт",
+  "hashrateThresholdHint": "Наприклад: 15",
+  "hashrateUnitLabel": "Одиниця",
+  "saveHashrateThreshold": "Зберегти поріг",
+
+  "hashrateRestoredTitle": "Відновлення хешрейту",
+  "hashrateRestoredDescription": "Сповіщати, коли хешрейт знову стане вищим за поріг",
+
+  "workersChangeTitle": "Зміна кількості воркерів",
+  "workersChangeDescription": "Сповіщати про збільшення або зменшення кількості воркерів",
+
+  "walletNotificationEventsTitle": "Сповіщення: {walletName}",
+  "@walletNotificationEventsTitle": {
+    "placeholders": {
+      "walletName": {}
+    }
+  },
+
+  "noWalletNotificationEvents": "Для цього гаманця поки немає подій.",
+  "dashboardSubtitle": "Моніторинг XMR-гаманця",
+  "hashrate2": "Хешрейт²",
+  "miningPool": "Майнінг-пул",
+  "aboutApp": "Про програму",
+  "aboutDescription": "Моніторинг майнінгу Monero через пул MoneroOcean. Переглядайте хешрейт, активність воркерів, статистику, історію майнінгу та виплати. Налаштовуйте сповіщення й віджети для зручного контролю роботи майнерів. VMimerInfoV використовує публічні дані гаманців і не керує роботою майнінгового обладнання.",
+  "developerContact": "Контакт розробника",
+  "feedback": "Зворотний зв'язок",
+  "feedbackDescription": "Повідомити про помилку або запропонувати покращення",
+  "sendFeedback": "Написати розробнику",
+  "feedbackEmailSubject": "VMimerInfoV — зворотний зв'язок",
+  "feedbackEmailBody": "Вітаю! Хочу повідомити про проблему або запропонувати покращення програми VMimerInfoV.",
+  "feedbackOpenError": "Не вдалося відкрити поштовий клієнт",
+  "appVersion": "Версія"
+}
